@@ -18,7 +18,7 @@ public class StepDefinitions {
     }
     @Then("kullanici {string} icin arama  yapar")
     public void kullanici_icin_arama_yapar(String arananKelime) {
-        amazonPage.aramaKutusu.sendKeys(arananKelime+ Keys.ENTER);
+        amazonPage.aramaKutusu.sendKeys(arananKelime+Keys.ENTER);
 
     }
     @Then("sonuclarin {string} icerdigini test eder")
